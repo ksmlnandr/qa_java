@@ -1,0 +1,9 @@
+cat/GetSoundCatTest.class
+feline/GetKittensNoArgsFelineTest.class
+lion/DoesHaveManeLionTest.class
+lion/GetFoodLionTest.class
+cat/GetFoodCatTest.class
+feline/GetFamilyFelineTest.class
+feline/EatMeatFelineTest.class
+lion/GetKittensLionTest.class
+feline/GetKittensWithArgsFelineTest.class

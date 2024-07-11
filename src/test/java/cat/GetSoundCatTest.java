@@ -5,13 +5,14 @@ import com.example.Feline;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Spy;
+import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
 public class GetSoundCatTest {
+    @Mock
     private Feline feline;
-    @Spy
+
     private Cat cat = new Cat(feline);
 
     @Test

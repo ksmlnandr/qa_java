@@ -3,14 +3,10 @@ package feline;
 import com.example.Feline;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Spy;
-import org.mockito.runners.MockitoJUnitRunner;
 
-@RunWith(MockitoJUnitRunner.class)
 public class GetFamilyFelineTest {
-    @Spy
-    private Feline feline;
+
+    private Feline feline = new Feline();
 
     @Test
     public void getFamilyReturnsFelineString() {
